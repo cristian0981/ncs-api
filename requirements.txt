@@ -1,0 +1,24 @@
+# --- Núcleo API ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+
+# --- Configuración / validación ---
+pydantic==2.10.4
+pydantic[email]==2.10.4
+pydantic-settings==2.7.1
+
+# --- Base de datos ---
+SQLAlchemy==2.0.36
+# Driver para la BD de origen Formap (SQL Server):
+pyodbc==5.2.0
+# Requiere el "ODBC Driver 17/18 for SQL Server" instalado en el sistema.
+
+# --- Motor de tiempos (SLA) ---
+holidays==0.62
+
+# --- Utilidades ---
+python-dateutil==2.9.0.post0
+
+# --- Pruebas ---
+pytest==8.3.4
+httpx==0.28.1
